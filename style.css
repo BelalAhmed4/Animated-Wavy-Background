@@ -7,7 +7,7 @@
 .page{
   position: relative;
   width: 100vw;
-height: 100vh;
+  height: 100vh;
 }
 .card{
   z-index: 100;
@@ -45,18 +45,18 @@ align-items: center;
 .card .details p {
   font-size: 13px;
 }
-body::before{
+.page::before{
   z-index: -10;
   content: "";
   position: fixed;
   top:50%;
   left: 50%;
   transform: translateX(-50%) skew(0deg, -10deg);
-border-radius: 50% ;
+  border-radius: 50% ;
   width: 230%;
   height: 210%;
   background-color: #0099ff;
-animation:backAnimation ease alternate 7s infinite ;
+  animation:backAnimation ease alternate 7s infinite ;
 }
 @keyframes backAnimation {
   0%{
